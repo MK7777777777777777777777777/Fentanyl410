@@ -1,0 +1,151 @@
+/* styles.css */
+
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #121212;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  .sticky {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  header {
+    height: 64px;
+    background-color: #0A0A0A;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  .logo {
+    flex-grow: 1;
+  }
+  
+  .logo h1 {
+    color: white;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    color: purple;
+  }
+  
+  .hero {
+    height: 600px;
+    background-image: url("images/hero-image.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero-content {
+    text-align: center;
+    color: gray;
+  }
+  
+  
+  .hero-content h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  section {
+    padding: 40px;
+  }
+  
+  .profile {
+    text-align: center;
+  }
+  
+  .profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .skills ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .skills ul li {
+    margin-right: 10px;
+  }
+  
+  .projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .project-item {
+    background-color: #0A0A0A;
+    padding: 20px;
+  }
+  
+  .project-item img {
+    max-width: 100%;
+    max-height: 200px; /* 例: 200pxに調整 */
+    width: auto;
+    height: auto;
+    margin-bottom: 10px;
+  }  
+  
+  .project-item h3 {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .project-item p {
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .project-item a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .project-item a:hover {
+    color: purple;
+  }
+  
+  footer {
+    background-color: #0A0A0A;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    color: white;
+  }
+  
